@@ -1,7 +1,7 @@
 package org.example.chapter01_turngame;
 
 public class GamePlay {
-    public static void main(String[] args){
+    public static void main(String[] args) {
     GameSystem Player_Air = new GameSystem("Air", 100, 10);
     GameSystem Player_Bidoo = new GameSystem("Bidoo", 110, 10);
 
