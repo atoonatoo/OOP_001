@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e5fc0d5-38ff-4195-8f67-f2f6732f11b5" name="Changes" comment="2">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread/Fishbread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread/FishbreadMakingMachine.java" afterDir="false" />
+    <list default="true" id="5e5fc0d5-38ff-4195-8f67-f2f6732f11b5" name="Changes" comment="챕터 2 붕어빵 만들기 코드 작성&#10;객체지향 프로그래밍으로 수정해야함&#10;예외처리 추가해야함">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/Fishbread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/FishbreadMakingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/Merchant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter01_turngame/GamePlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter01_turngame/GamePlay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread/FishBread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread/FishbreadMakingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread/FishbreadMakingMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,13 +140,22 @@
       <option name="project" value="LOCAL" />
       <updated>1703342238040</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="챕터 2 붕어빵 만들기 코드 작성&#10;객체지향 프로그래밍으로 수정해야함&#10;예외처리 추가해야함">
+      <option name="closed" value="true" />
+      <created>1704140970714</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704140970714</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="챕터 2 붕어빵 만들기 코드 작성&#10;객체지향 프로그래밍으로 수정해야함&#10;예외처리 추가해야함" />
+    <option name="LAST_COMMIT_MESSAGE" value="챕터 2 붕어빵 만들기 코드 작성&#10;객체지향 프로그래밍으로 수정해야함&#10;예외처리 추가해야함" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

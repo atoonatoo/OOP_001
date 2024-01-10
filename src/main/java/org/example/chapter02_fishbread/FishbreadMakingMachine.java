@@ -13,7 +13,6 @@ public class FishbreadMakingMachine {
         Fishbread redBeanFishBread = new Fishbread("팥 붕어빵", 1000);
         Fishbread creamFishBread = new Fishbread("크림 붕어빵", 1500);
         Fishbread hotFishBread = new Fishbread("매운 붕어빵", 2000);
-        Balance balance = new Balance();
 
         while (trade) {
             System.out.println("1.붕어빵 구매 | 2.붕어빵 봉투 열기 | 3.붕어빵 메뉴판 | 4.내 소지금 | 5.붕어빵 장수 금고 | 0.거래 종료");
