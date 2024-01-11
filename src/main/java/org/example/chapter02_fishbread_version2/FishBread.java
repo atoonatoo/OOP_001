@@ -29,10 +29,21 @@ public class FishBread {
 
     public void reduceQuantity(int amount) {
         this.quantity -= amount;
+        if (this.quantity < 0) {
+            this.quantity = 0;
+        }
+    }
+
+    public boolean isAvailable() {
+        return quantity > 0;
     }
 
     @Override
     public String toString() {
         return type + " - 가격: " + price + "원";
+    }
+
+    public String toDetailedString() {
+        return type + " - 가격: " + price + "원, 수량: " + quantity + "개";
     }
 }

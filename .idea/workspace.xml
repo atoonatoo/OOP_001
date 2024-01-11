@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e5fc0d5-38ff-4195-8f67-f2f6732f11b5" name="Changes" comment="챕터 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/FishBread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/FishBreadMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/FishBreadSeller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread/FishbreadMakingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread/FishbreadMakingMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/Fishbread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/FishbreadMakingMachine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/Merchant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/FishBread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/FishBread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/FishBreadMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/FishBreadMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/FishBreadSeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/FishBreadSeller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704917692950</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="챕터 2">
+      <option name="closed" value="true" />
+      <created>1705007316457</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705007316457</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
