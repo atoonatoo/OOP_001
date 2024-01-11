@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e5fc0d5-38ff-4195-8f67-f2f6732f11b5" name="Changes" comment="챕터 2 붕어빵 만들기 코드 작성&#10;객체지향 프로그래밍으로 수정해야함&#10;예외처리 추가해야함">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/Fishbread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/FishbreadMakingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/Merchant.java" afterDir="false" />
+    <list default="true" id="5e5fc0d5-38ff-4195-8f67-f2f6732f11b5" name="Changes" comment="챕터 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/FishBread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/FishBreadMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/FishBreadSeller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread/FishbreadMakingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread/FishbreadMakingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/Fishbread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/FishbreadMakingMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version2/Merchant.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +68,20 @@
       <recent name="C:\Users\user\IdeaProjects\OOP_001\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FishbreadMakingMachine">
+  <component name="RunManager" selected="Application.FishBreadMachine">
+    <configuration name="FishBreadMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter02_fishbread_version2.FishBreadMachine" />
+      <module name="OOP_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chapter02_fishbread_version2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FishBreadVendingMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.chapter02_fishbread.FishBreadVendingMachine" />
       <module name="OOP_001" />
@@ -94,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FishBreadMachine" />
         <item itemvalue="Application.FishbreadMakingMachine" />
         <item itemvalue="Application.FishBreadVendingMachine" />
       </list>
@@ -148,14 +165,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704140970714</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="챕터 2">
+      <option name="closed" value="true" />
+      <created>1704917692950</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704917692950</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="2" />
     <MESSAGE value="챕터 2 붕어빵 만들기 코드 작성&#10;객체지향 프로그래밍으로 수정해야함&#10;예외처리 추가해야함" />
-    <option name="LAST_COMMIT_MESSAGE" value="챕터 2 붕어빵 만들기 코드 작성&#10;객체지향 프로그래밍으로 수정해야함&#10;예외처리 추가해야함" />
+    <MESSAGE value="챕터 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="챕터 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

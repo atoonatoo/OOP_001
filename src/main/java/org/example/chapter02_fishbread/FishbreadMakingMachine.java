@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class FishbreadMakingMachine {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         int initialDeposit = 10000;
         int totalPrice = 0;
