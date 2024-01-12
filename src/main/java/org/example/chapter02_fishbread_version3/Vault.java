@@ -5,16 +5,17 @@ public class Vault {
     Fishbread fishbread = new Fishbread();
     Customer customer = new Customer();
 
-    public static void amount(int money) {
-       saveMoney += money;
+    public static void amount(int totalMoney) {
+        saveMoney += totalMoney;
     }
 
     public void showAmount(){
         System.out.println("총매출액 : " + saveMoney + "원" );
+        return;
     }
 
     public int getSaveMoney() {
-        return this.saveMoney = saveMoney;
+        return saveMoney = saveMoney;
     }
 }
 

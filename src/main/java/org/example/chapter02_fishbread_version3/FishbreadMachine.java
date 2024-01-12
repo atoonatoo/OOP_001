@@ -16,7 +16,7 @@ public class FishbreadMachine {
             int menu = sc.nextInt();
             switch (menu){
                 case 1:
-                   customer.order(menu);
+                   customer.order();
                     break;
                 case 2:
                     break;

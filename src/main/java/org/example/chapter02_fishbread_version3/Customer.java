@@ -9,10 +9,10 @@ public class Customer {
    Celler celler = new Celler();
 
 
-public void order(int choice){
+public void order(){
    int orderQuantity;
    System.out.println("1. 팥붕어빵 | 2. 크림붕어빵 | 3. 매운붕어빵");
-   choice = sc.nextInt();
+   int choice = sc.nextInt();
    System.out.println("몇개를 구매하시겠습니까?");
    switch (choice) {
       case 1:
@@ -40,7 +40,7 @@ public void order(int choice){
          return;
       }
       money -= totalMoney;
-      Vault.amount(money);
+      Vault.amount(totalMoney);
       List<Fishbread> fishbreads = celler.makeFishBread(orderQuantity);
 
       System.out.println("아이 맛있다 ~ " + fishbread.getType() + "맛이네 ~" + "판매 남은 수량" +"보류"+ "개");

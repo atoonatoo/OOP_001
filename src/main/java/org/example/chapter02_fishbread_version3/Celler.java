@@ -16,10 +16,12 @@ public class Celler {
         return null;
     }
 
-
-
-
-
+    public List<Fishbread> amount(Vault vault, Customer customer, int revenue){
+      int totalRevenue = revenue += vault.getSaveMoney();
+       salesMoney = totalRevenue;
+       System.out.println("매출액 : " + salesMoney + "원");
+       return null;
+    }
 
 
 }
