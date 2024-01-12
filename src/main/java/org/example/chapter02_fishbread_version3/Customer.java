@@ -10,7 +10,6 @@ public class Customer {
    Celler celler = new Celler();
 
 
-
    public void order (Fishbread fishbread, int orderQuantity){
       int totalMoney = orderQuantity * fishbread.getPrice();
       if(totalMoney > money){
@@ -19,6 +18,6 @@ public class Customer {
       }
       money -= totalMoney;
       List<Fishbread> fishbreads = celler.makeFishBread(orderQuantity);
-      System.out.println("아이 맛있다 ~ " + fishbread.getType() + "맛이네 ~" +  + "개");
+      System.out.println("아이 맛있다 ~ " + fishbread.getType() + "맛이네 ~" + "판매 남은 수량" + "개");
    }
 }
