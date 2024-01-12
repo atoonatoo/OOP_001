@@ -8,6 +8,7 @@ public class FishbreadMachine {
         Scanner sc = new Scanner(System.in);
         Customer customer = new Customer();
         Fishbread fishbread = new Fishbread();
+        Vault vault = new Vault();
         boolean trade = true;
 
         while (trade){
@@ -15,27 +16,7 @@ public class FishbreadMachine {
             int menu = sc.nextInt();
             switch (menu){
                 case 1:
-                    int orderQuantity;
-                    System.out.println("1. 팥붕어빵 | 2. 크림붕어빵 | 3. 매운붕어빵");
-                    int choice = sc.nextInt();
-                    System.out.println("몇개를 구매하시겠습니까?");
-                    switch (choice) {
-                        case 1:
-                            orderQuantity = sc.nextInt();
-                            customer.order(Fishbread.redbean, orderQuantity);
-                            break;
-                        case 2:
-                            orderQuantity = sc.nextInt();
-                            customer.order(Fishbread.cream, orderQuantity);
-                            break;
-                        case 3:
-                            orderQuantity = sc.nextInt();
-                            customer.order(Fishbread.hot, orderQuantity);
-                            break;
-                        default:
-                            System.out.println("잘못된 선택입니다.");
-                            break;
-                    }
+                   customer.order(menu);
                     break;
                 case 2:
                     break;
@@ -44,6 +25,7 @@ public class FishbreadMachine {
                 case 4:
                     break;
                 case 5:
+                    vault.showAmount();
                     break;
                 case 6:
                     break;
