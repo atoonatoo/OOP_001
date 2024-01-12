@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e5fc0d5-38ff-4195-8f67-f2f6732f11b5" name="Changes" comment="챕터 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version3/Celler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version3/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version3/FishbreadMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version3/Vault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter00_test/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version3/Celler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version3/Celler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version3/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version3/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version3/Fishbread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version3/Fishbread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version3/FishbreadMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter02_fishbread_version3/FishbreadMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <recent name="C:\Users\user\IdeaProjects\OOP_001\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FishBreadMachine">
+  <component name="RunManager" selected="Application.FishbreadMachine">
     <configuration name="FishBreadMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.chapter02_fishbread_version2.FishBreadMachine" />
       <module name="OOP_001" />
@@ -92,6 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FishbreadMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter02_fishbread_version3.FishbreadMachine" />
+      <module name="OOP_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chapter02_fishbread_version3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FishbreadMakingMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.chapter02_fishbread.FishbreadMakingMachine" />
       <module name="OOP_001" />
@@ -107,6 +120,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FishbreadMachine" />
         <item itemvalue="Application.FishBreadMachine" />
         <item itemvalue="Application.FishbreadMakingMachine" />
         <item itemvalue="Application.FishBreadVendingMachine" />
@@ -186,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705008397271</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="챕터 2">
+      <option name="closed" value="true" />
+      <created>1705011728573</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705011728573</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
