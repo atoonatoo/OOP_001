@@ -11,7 +11,6 @@ public class FishBreadSeller {
         this.salesMoney = 0;
         this.availableFishBreads = new ArrayList<>();
     }
-
     public int getSalesMoney() {
         return salesMoney;
     }
