@@ -4,7 +4,7 @@ public class Espresso implements CoffeeInfomation {
 
     @Override
     public String getCoffeeName() {
-        return "Espresso";
+        return "에스프레소";
     }
 
     @Override

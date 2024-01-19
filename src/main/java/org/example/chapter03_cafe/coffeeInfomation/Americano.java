@@ -5,7 +5,7 @@ public class Americano implements CoffeeInfomation {
 
     @Override
     public String getCoffeeName() {
-        return "Americano";
+        return "아메리카노";
     }
 
     @Override
