@@ -13,6 +13,7 @@ public class CoffeeMenu {
         System.out.println("3. 카라멜 마끼아또 : 2500원");
         System.out.println("4. 에스프레소 : 2500원");
         System.out.println("--------------------");
+        System.out.println(" 메뉴를 선택해 주세요.");
 
         CoffeeInfomation coffeeInfomation = null;
         switch (coffeeType){
