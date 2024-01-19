@@ -11,9 +11,6 @@ public class Barista {
     private List<String> coffees = new ArrayList<String>();
 
 
-    public List<Barista>(String coffee){
-        this.coffee = coffee;
-    }
     public int getBalance() {
         return balance;
     }
@@ -41,7 +38,6 @@ public class Barista {
 
         coffee = orderCoffeeName;
         coffees.add(coffee);
-        System.out.println(coffee);
     }
 
 

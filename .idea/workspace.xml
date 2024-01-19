@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e5fc0d5-38ff-4195-8f67-f2f6732f11b5" name="Changes" comment="챕터 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Barista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Barista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Coffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/CoffeeMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/CoffeeMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/coffeeInfomation/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/coffeeInfomation/Americano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/coffeeInfomation/Cappuccino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/coffeeInfomation/Cappuccino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/coffeeInfomation/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/coffeeInfomation/Espresso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/coffeeInfomation/Macchiatto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/coffeeInfomation/Macchiatto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705672294671</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="챕터 2">
+      <option name="closed" value="true" />
+      <created>1705678135523</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1705678135523</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
