@@ -15,6 +15,9 @@ public class CoffeeMenu {
         System.out.println("--------------------");
         System.out.println(" 메뉴를 선택해 주세요.");
 
+        String userInput = sc.nextLine();
+
+        coffeeType = CoffeeType.valueOf(userInput);
         CoffeeInfomation coffeeInfomation = null;
         switch (coffeeType){
             case AMERICANO -> coffeeInfomation = new Americano();
