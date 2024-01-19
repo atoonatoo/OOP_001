@@ -9,7 +9,7 @@ public class Main {
         CoffeeInfomation coffeeInfomation = null;
         CoffeeType coffeeType = null;
 
-    customer.orderCoffee(coffeeMenu, coffeeType);
+
 
     }
 }

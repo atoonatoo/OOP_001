@@ -5,7 +5,8 @@ import org.example.chapter03_cafe.coffeeInfomation.*;
 import java.util.Scanner;
 
 public class CoffeeMenu {
-    public String menuChoose(CoffeeType coffeeType) {
+    Customer customer = new Customer();
+    public void menuChoose() {
         Scanner sc = new Scanner(System.in);
         System.out.println("--------Menu--------");
         System.out.println("1. 아메리카노 : 1500원");
@@ -17,14 +18,17 @@ public class CoffeeMenu {
 
         String userInput = sc.nextLine();
 
-        coffeeType = CoffeeType.valueOf(userInput);
+        CoffeeType coffeeType = CoffeeType.valueOf(userInput);
         CoffeeInfomation coffeeInfomation = null;
         switch (coffeeType){
-            case AMERICANO -> coffeeInfomation = new Americano();
+            case Americano -> coffeeInfomation = new Americano();
             case Cappuccino -> coffeeInfomation = new Cappuccino();
             case Macchiatto -> coffeeInfomation = new Macchiatto();
             case Espresso -> coffeeInfomation = new Espresso();
+            default -> throw new IllegalStateException("다시 주문해주세요." + coffeeType);
         }
-        return coffeeInfomation.getCoffeeName() + coffeeInfomation.getPrice();
+        String orderCoffeeName = coffeeInfomation.getCoffeeName();
+        int orderCoffeePrice = coffeeInfomation.getPrice();
+        customer.orderCoffeeFromBarista(orderCoffeeName, orderCoffeePrice);
     }
 }
