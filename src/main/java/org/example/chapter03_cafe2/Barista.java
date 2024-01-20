@@ -33,12 +33,16 @@ public class Barista {
         List<String> coffeeLists = new ArrayList<>();
         switch (choice) {
             case 1:
+                coffeeLists.add(Americano);
                 break;
             case 2:
+                coffeeLists.add(Cappuccino);
                 break;
             case 3:
+                coffeeLists.add(Macchiatto);
                 break;
             case 4:
+                coffeeLists.add(Espresso);
                 break;
             default:
         }

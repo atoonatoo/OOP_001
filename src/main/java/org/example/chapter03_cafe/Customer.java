@@ -5,14 +5,24 @@ import org.example.chapter03_cafe.coffeeInfomation.CoffeeInfomation;
 import java.util.List;
 
 public class Customer {
-    private String customerName = "제임스";
+    private String customerName;
+
+    private int customerMoney;
 
     Barista barista = new Barista();
-    Coffee coffee = new Coffee();
-    CustomerMoney customerMoney = new CustomerMoney();
+
+    public int getCustomerMoney() {
+        return customerMoney;
+    }
 
     public Customer() {
     }
+
+    public Customer(String customerName, int customerMoney) {
+        this.customerName = customerName;
+        this.customerMoney = customerMoney;
+    }
+
 
     //메뉴판 보기
     public void orderCoffee(CoffeeMenu coffeeMenu) {
@@ -21,13 +31,12 @@ public class Customer {
 
     //바리스타에게 주문하기
     public void orderCoffeeFromBarista(String orderCoffeeName, int orderCoffeePrice) {
-        if (orderCoffeePrice > customerMoney.getMoney()) {
-            System.out.println("잔액이 부족합니다.");
-            return;
-        }
-        customerMoney.pay(orderCoffeePrice);
         barista.makeCoffee(orderCoffeeName, orderCoffeePrice);
+
+        customerMoney -= orderCoffeePrice;
     }
 
-
+    public void remainingMoney() {
+        System.out.println("내 소지금 : " + customerMoney + " 원");
+    }
 }

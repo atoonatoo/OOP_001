@@ -20,14 +20,14 @@ public class CoffeeMenu {
         String userInput = sc.nextLine();
         try {
             CoffeeType coffeeType = CoffeeType.valueOf(userInput);
-            CoffeeInfomation coffeeInfomation = null;
+            CoffeeInfomation coffeeInfomation =
             switch (coffeeType) {
                 case Americano -> coffeeInfomation = new Americano();
                 case Cappuccino -> coffeeInfomation = new Cappuccino();
                 case Macchiatto -> coffeeInfomation = new Macchiatto();
                 case Espresso -> coffeeInfomation = new Espresso();
                 default -> throw new IllegalStateException("다시 주문해주세요." + coffeeType);
-            }
+            };
             customer.orderCoffeeFromBarista(coffeeInfomation.getCoffeeName(), coffeeInfomation.getPrice());
         } catch (IllegalArgumentException e) {
             System.out.println("올바른 메뉴를 선택해주세요.");

@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e5fc0d5-38ff-4195-8f67-f2f6732f11b5" name="Changes" comment="주문한 커피가 null값이 뜨는 상황&#10;list에 재대로 저장이 안되는 것 같음&#10;list컬렉션에 좀 더 공부해볼필요있음&#10;더불어 바리스타와 내 소지금도 출력이 안된다&#10;초기화관련문제로 예상">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe2/Barista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe2/CoffeeMenu/Americano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe2/CoffeeMenu/Cappuccino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe2/CoffeeMenu/CoffeeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe2/CoffeeMenu/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe2/CoffeeMenu/Macchiatto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe2/CoffeeMenu/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe2/CoffeeMenuBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe2/CoffeeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe2/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Barista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Barista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/CoffeeMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/CoffeeMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/CustomerMoney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe2/Barista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe2/Barista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +68,7 @@
       <recent name="C:\Users\user\IdeaProjects\OOP_001\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.chapter03_cafe2.CoffeeMenu.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="FishBreadMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.chapter02_fishbread_version2.FishBreadMachine" />
       <module name="OOP_001" />
@@ -113,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.chapter03_cafe2.CoffeeMenu.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chapter03_cafe2.CoffeeMenu.Main" />
+    <configuration name="org.example.chapter03_cafe2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter03_cafe2.Main" />
       <module name="OOP_001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.chapter03_cafe2.CoffeeMenu.*" />
+          <option name="PATTERN" value="org.example.chapter03_cafe2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.chapter03_cafe2.CoffeeMenu.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.org.example.chapter03_cafe2.Main" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.FishbreadMachine" />
         <item itemvalue="Application.FishBreadMachine" />
@@ -350,8 +345,27 @@
       <option name="project" value="LOCAL" />
       <updated>1705739289625</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="주문한 커피가 null값이 뜨는 상황&#10;list에 재대로 저장이 안되는 것 같음&#10;list컬렉션에 좀 더 공부해볼필요있음&#10;더불어 바리스타와 내 소지금도 출력이 안된다&#10;초기화관련문제로 예상">
+      <option name="closed" value="true" />
+      <created>1705743559021</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1705743559021</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
