@@ -1,7 +1,6 @@
 package org.example.chapter03_cafe;
 
-import org.example.chapter03_cafe.coffeeInfomation.Coffee;
-import org.example.chapter03_cafe.coffeeInfomation.CustomerMoney;
+import org.example.chapter03_cafe.coffeeInfomation.CoffeeInfomation;
 
 import java.util.List;
 
@@ -12,10 +11,13 @@ public class Customer {
     Coffee coffee = new Coffee();
     CustomerMoney customerMoney = new CustomerMoney();
 
-    public Customer() {}
+    public Customer() {
+    }
 
     //메뉴판 보기
-    public void orderCoffee(CoffeeMenu coffeeMenu) {coffeeMenu.menuChoose();}
+    public void orderCoffee(CoffeeMenu coffeeMenu) {
+        coffeeMenu.menuChoose();
+    }
 
     //바리스타에게 주문하기
     public void orderCoffeeFromBarista(String orderCoffeeName, int orderCoffeePrice) {
@@ -28,11 +30,4 @@ public class Customer {
     }
 
 
-    public void coffeeChecker() {
-        List<String> orderCoffees = coffee.coffeeName();
-        System.out.println("주문한 커피 목록:");
-        for (String coffee : orderCoffees) {
-            System.out.println(coffee);
-        }
-    }
 }

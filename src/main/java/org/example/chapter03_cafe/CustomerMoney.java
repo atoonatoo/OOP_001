@@ -1,4 +1,4 @@
-package org.example.chapter03_cafe.coffeeInfomation;
+package org.example.chapter03_cafe;
 
 public class CustomerMoney {
     public int getMoney() {
