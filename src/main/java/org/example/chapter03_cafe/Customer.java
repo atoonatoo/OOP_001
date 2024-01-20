@@ -8,10 +8,11 @@ public class Customer {
 
 
     private int money = 10000;
-    Barista barista = new Barista();
-    private final List<Barista> baristas = new ArrayList<>(); // coffees 리스트 초기화
+    private Barista barista;
 
-
+    public Customer(Barista barista) {
+        this.barista = barista;
+    }
 
     public Customer() {
 
@@ -34,9 +35,10 @@ public class Customer {
 
 
     public void coffeeChecker() {
+        List<String> orderCoffees = barista.getCoffees();
         System.out.println("주문한 커피 목록:");
-        for (Barista bs : baristas) {
-            System.out.println(bs.getCoffee());
+        for (String coffee : orderCoffees) {
+            System.out.println(coffee);
         }
     }
 }

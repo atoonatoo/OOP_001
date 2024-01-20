@@ -5,19 +5,18 @@ import java.util.List;
 
 public class Barista {
     private int balance = 0;
-
-
-    private String coffee;
     private List<String> coffees = new ArrayList<String>();
+
+
+    public List<String> getCoffees() {
+        return coffees;
+    }
 
 
     public int getBalance() {
         return balance;
     }
 
-    public String getCoffee() {
-        return coffee;
-    }
 
     public Barista(int balance) {
         this.balance = balance;
@@ -28,6 +27,7 @@ public class Barista {
 
 
     public void makeCoffee(String orderCoffeeName, int orderCoffeePrice, int money) {
+        String coffee;
         if (orderCoffeePrice > money) {
             return;
         }
@@ -35,9 +35,7 @@ public class Barista {
         balance += orderCoffeePrice;
 
         System.out.println(orderCoffeeName + orderCoffeePrice);
-
-        coffee = orderCoffeeName;
-        coffees.add(coffee);
+        coffees.add(orderCoffeeName);
     }
 
 

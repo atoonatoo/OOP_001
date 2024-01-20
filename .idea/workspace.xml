@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e5fc0d5-38ff-4195-8f67-f2f6732f11b5" name="Changes" comment="챕터 2">
+    <list default="true" id="5e5fc0d5-38ff-4195-8f67-f2f6732f11b5" name="Changes" comment="주문한 커피가 null값이 뜨는 상황&#10;list에 재대로 저장이 안되는 것 같음&#10;list컬렉션에 좀 더 공부해볼필요있음&#10;더불어 바리스타와 내 소지금도 출력이 안된다&#10;초기화관련문제로 예상">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/coffeeInfomation/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter00_test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter00_test/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Barista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Barista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter03_cafe/Customer.java" afterDir="false" />
     </list>
@@ -76,19 +79,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FishBreadVendingMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.chapter02_fishbread.FishBreadVendingMachine" />
-      <module name="OOP_001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.chapter02_fishbread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FishbreadMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.chapter02_fishbread_version3.FishbreadMachine" />
       <module name="OOP_001" />
@@ -128,13 +118,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.chapter00_test.test" />
+      <module name="OOP_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.chapter00_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.FishbreadMachine" />
         <item itemvalue="Application.FishBreadMachine" />
         <item itemvalue="Application.FishbreadMakingMachine" />
-        <item itemvalue="Application.FishBreadVendingMachine" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705678135523</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="주문한 커피가 null값이 뜨는 상황&#10;list에 재대로 저장이 안되는 것 같음&#10;list컬렉션에 좀 더 공부해볼필요있음&#10;더불어 바리스타와 내 소지금도 출력이 안된다&#10;초기화관련문제로 예상">
+      <option name="closed" value="true" />
+      <created>1705678464559</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1705678464559</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -307,7 +318,8 @@
     <MESSAGE value="2" />
     <MESSAGE value="챕터 2 붕어빵 만들기 코드 작성&#10;객체지향 프로그래밍으로 수정해야함&#10;예외처리 추가해야함" />
     <MESSAGE value="챕터 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="챕터 2" />
+    <MESSAGE value="주문한 커피가 null값이 뜨는 상황&#10;list에 재대로 저장이 안되는 것 같음&#10;list컬렉션에 좀 더 공부해볼필요있음&#10;더불어 바리스타와 내 소지금도 출력이 안된다&#10;초기화관련문제로 예상" />
+    <option name="LAST_COMMIT_MESSAGE" value="주문한 커피가 null값이 뜨는 상황&#10;list에 재대로 저장이 안되는 것 같음&#10;list컬렉션에 좀 더 공부해볼필요있음&#10;더불어 바리스타와 내 소지금도 출력이 안된다&#10;초기화관련문제로 예상" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
