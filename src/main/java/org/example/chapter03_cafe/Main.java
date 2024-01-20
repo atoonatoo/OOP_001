@@ -8,8 +8,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         CoffeeMenu coffeeMenu = new CoffeeMenu();
-        Customer customer = new Customer();
         Barista barista = new Barista();
+        Customer customer = new Customer(barista);
+
         CoffeeType coffeeType = null;
         boolean cafe = true;
 

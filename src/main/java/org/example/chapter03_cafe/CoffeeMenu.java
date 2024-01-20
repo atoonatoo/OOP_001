@@ -28,10 +28,10 @@ public class CoffeeMenu {
                 case Espresso -> coffeeInfomation = new Espresso();
                 default -> throw new IllegalStateException("다시 주문해주세요." + coffeeType);
             }
-            String orderCoffeeName = coffeeInfomation.getCoffeeName();
-            int orderCoffeePrice = coffeeInfomation.getPrice();
+            //String orderCoffeeName = coffeeInfomation.getCoffeeName();
+            //int orderCoffeePrice = coffeeInfomation.getPrice();
 
-            customer.orderCoffeeFromBarista(orderCoffeeName, orderCoffeePrice);
+            customer.orderCoffeeFromBarista(coffeeInfomation.getCoffeeName(), coffeeInfomation.getPrice());
         } catch (IllegalArgumentException e) {
             System.out.println("올바른 메뉴를 선택해주세요.");
         }
