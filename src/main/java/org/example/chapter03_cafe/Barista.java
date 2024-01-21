@@ -9,7 +9,6 @@ public class Barista {
     private int balance = 0;
 
     BaristaMoney baristaMoney = new BaristaMoney();
-    Customer customer = new Customer();
     public int getBalance() {
         return balance;
     }
@@ -18,10 +17,6 @@ public class Barista {
     }
 
     public List<CoffeeInfomation> makeCoffee(String orderCoffeeName, int orderCoffeePrice) {
-        if (orderCoffeePrice > customer.getCustomerMoney()){
-            System.out.println("금액부족");
-            return null;
-        }
         System.out.println("바리스타 : 고객님 께서 주문하신 [" + orderCoffeeName + "] [" + orderCoffeePrice + "]원 되겠습니다. 곧 준비해드리겠습니다");
         baristaMoney.safe(orderCoffeePrice);
         List<CoffeeInfomation> coffeeInfomations = new ArrayList<>();

@@ -9,7 +9,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         CoffeeMenu coffeeMenu = new CoffeeMenu();
         Barista barista = new Barista();
-        Customer customer = new Customer("제임스", 10000);
+        Customer customer = new Customer();
         CoffeeType coffeeType = null;
         boolean cafe = true;
 
@@ -21,7 +21,6 @@ public class Main {
                     customer.orderCoffee(coffeeMenu);
                     break;
                 case 2:
-
                     break;
                 case 3:
                     System.out.println("바리스타 소지금 : " + barista.getBalance() + "원");

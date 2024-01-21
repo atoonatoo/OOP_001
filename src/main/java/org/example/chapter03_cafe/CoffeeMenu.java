@@ -20,8 +20,8 @@ public class CoffeeMenu {
         String userInput = sc.nextLine();
         try {
             CoffeeType coffeeType = CoffeeType.valueOf(userInput);
-            CoffeeInfomation coffeeInfomation =
-            switch (coffeeType) {
+            CoffeeInfomation coffeeInfomation;
+            coffeeInfomation = switch (coffeeType) {
                 case Americano -> coffeeInfomation = new Americano();
                 case Cappuccino -> coffeeInfomation = new Cappuccino();
                 case Macchiatto -> coffeeInfomation = new Macchiatto();
