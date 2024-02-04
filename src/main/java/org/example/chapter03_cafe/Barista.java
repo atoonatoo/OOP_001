@@ -4,46 +4,38 @@ import org.example.chapter03_cafe.coffeeInfomation.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Barista {
-    public Barista(int balance) {
-        this.balance = balance;
+    Scanner sc = new Scanner(System.in);
+    private int baristaMoney = 0;
+
+    public void makingCoffee(CoffeeMenu coffeeMenu, int money) {
+            Customer customer = new Customer(10000);
+            int customerMoney = customer.getMoney();
+        String inputOrder = sc.nextLine();
+        CoffeeType coffeeType = CoffeeType.valueOf(inputOrder);
+        CoffeeInfomation coffeeInfomation1;
+        switch (coffeeType) {
+            case Americano -> coffeeInfomation1 = new Americano();
+            case Cappuccino -> coffeeInfomation1 = new Cappuccino();
+            case Macchiatto -> coffeeInfomation1 = new Macchiatto();
+            case Espresso -> coffeeInfomation1 = new Espresso();
+            default -> throw new IllegalStateException("다시 주문해주세요" + coffeeType);
+        }
+        if (coffeeInfomation1.getPrice() > customerMoney){
+            System.out.println("고객님 금액이 부족합니다.");
+            return;
+        }
+        customer.pay(coffeeInfomation1.getPrice());
+        baristaBank(coffeeInfomation1.getPrice());
+        System.out.println("주문하신" + coffeeInfomation1.getCoffeeName() + "나왔습니다." + coffeeInfomation1.getPrice() + "원 되겠습니다.");
+
     }
 
-    private int balance = 0;
-
-    public int getBalance() {
-        return balance;
+    private void baristaBank(int price) {
+        baristaMoney += price;
     }
-
-    public Barista() {
-    }
-
-    public int getbaristaMoney(int price) {
-        balance += price;
-        return balance;
-    }
-
-    public void remainingBaristaMoney() {
-        System.out.println("바리스타 소지금 : " + balance + " 원");
-    }
-
-    ;
-
-
-    //  public List<CoffeeInfomation> makeCoffee(String orderCoffeeName, int orderCoffeePrice) {
-    //  System.out.println("바리스타 : 고객님 께서 주문하신 [" + orderCoffeeName + "] [" + orderCoffeePrice + "]원 되겠습니다. 곧 준비해드리겠습니다");
-    //  List<CoffeeInfomation> coffeeInfomations = new ArrayList<>();
-
-    //   for (int i = 0; i <= 3; i++) {
-    //       switch (coffeeInfomations) {
-    //           case Americano -> coffeeInfomations.add(new Americano());
-    //           case Cappuccino -> coffeeInfomations.add(new Cappuccino());
-    //           case Macchiatto -> coffeeInfomations.add(new Macchiatto());
-    //          case Espresso -> coffeeInfomations.add(new Espresso());
-    //      }
-    //     return coffeeInfomations;
-
 }
 
 
